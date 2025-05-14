@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    color: rgb(152, 224, 255);
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    font-style: oblique;
+    font-size: 1.4rem;
+    
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 2vw;
+    position: sticky;
+   
+  
+  }
+  head:hover{
+    background: none;
+    background-color: rgba(46, 7, 138, 0.813);
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .heAder{
+    margin: -1rem;
+    margin-left: -1.6rem;
+    background-color: black;
+    width: 100vw;
+    height: 17vh;
+  }
+  .logo_club img {
+    width: 15vw;
+    max-width: 120px;
+    padding: 1rem 1px;
+    margin-left: 1rem;
+  }
+  
+  /* NAVIGATION */
+  
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 2vw;
+    gap: 1rem;
+    position: relative;
+    background: none;
+  }
+  
+  .burger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+    position: relative;
+    top: 5rem;
+    padding: 0.5rem;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    position: absolute;
+    left: 20rem;
+    top: -5rem;
+    background: none;
+  }
+  
+  .menu li {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .contact {
+    border: 0.2rem solid rgb(135, 229, 255);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    position: absolute;
+    left: 64vw;
+    top: -1rem;
+  }
+  
+  /* IMAGE */
+  
+  .left img {
+    width: 40%;
+    max-width: 60vw;
+    height: auto;
+    margin-left: 59vw;
+    margin-top: -20rem;
+    display: block;
+    border-radius: 1rem;
+    background: none;
+  }
+  
+  .right > h1 {
+    color: antiquewhite;
+    position: relative;
+    margin-left: 10rem;
+    background: none;
+    z-index: 1;
+  }
+  
+  .right > h1 > span {
+    background: none;
+    
+  }
+  
+  .right > p {
+    position: relative;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    font-style: italic;
+    font-size: 23px;
+    color: rgb(237, 194, 137);
+    background: none;
+    z-index: 1;
+  }
+  
+  #section_propo > h2 {
+    position: relative;
+    margin-top: 5rem;
+    text-align: center;
+    color: rgb(251, 222, 184);
+    font-size: 30px;
+    
+  }
+  
+  .info_equipe {
+    font-style: oblique;
+    background-color:rgba(20, 20, 20, 0.886);
+    max-width: 20rem;
+    min-height: 10rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    box-shadow:2px 3.5px 2px rgb(33, 33, 33);
+    overflow: hidden;
+  }
+  
+  .info_equipe > p {
+    background: none;
+    color: azure;
+    font-style: italic;
+    font-size: 17px;
+  }
+  
+  .info_equipe > h5 {
+    background: none;
+    font-size: larger;
+    text-align: center;
+    color: rgb(63, 198, 137);
+  }
+  .club_Objectifs>h2{
+    text-align: center;
+    color: antiquewhite;
+    font-style: oblique;
+    margin-top: 4rem;
+    font-size: 30px;
+  }
+  .data1{
+    background-color: rgba(39, 42, 44, 0.92); 
+    font-style: italic;
+    margin-left: 19rem;
+    margin-top: 0.5rem;
+   
+    width: 40rem;
+    height: auto;
+    color: white;
+    padding: 1.3rem;
+    position: relative;
+    top: 1rem;
+    border-radius: 8px;
+    font-size: larger;
+    display: flex;
+    z-index: ;
+   
+    
+  
+  
+  
+  }
+  .p1{
+    border:3px solid rgba(73, 203, 136, 0.532);
+    background: none;
+    padding: 10px;
+    background-color:rgba(167, 176, 142, 0.201);
+    
+  
+  }
+  #section_activité>h5{
+    background: none;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(245, 231, 162);
+    background: none;
+    position: relative;
+    top: 3rem;
+  }
+  .activité1 {
+    background-color: rgba(0, 149, 255, 0.623);
+    width: 90%;
+    max-width: 20rem;
+    height: 22rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+  }
+  
+  
+  .activité1 > img {
+    margin-top: 1rem;
+    width: 80%;
+    height: 10rem;
+    border-radius: 5px;
+  
+  }
+  
+  .activité1 > h2 {
+    background: none;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: rgb(251, 222, 184);
+  }
+  
+  .activité1 > p {
+    margin-top: 0.5rem;
+    background: none;
+    font-size: medium;
+    font-style: italic;
+    color: white;
+  }
+  .activité1 > img:hover{
+  transform: scale(1.05);
+  }
+
+  .conTact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+    margin-top: 18vh;
+   width: 30vw;
+   min-height: 42vh;
+   border: 2px solid rgb(4, 142, 142);
+   border-radius: 15px;
+   background-color: rgba(8, 7, 7, 0.872);
+  }
+.conTact>form>label{
+    margin-left: 3vw;
+    
+    font-style: oblique;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+  }
+  .conTact>form>h1{
+    padding: 4px;
+    text-align: center;
+    display: flex;
+  }
+  .conTact>form>input{
+    margin-left: 4vw;
+    margin-top: -3vh;
+    height: 7vh;
+    min-width: 20vw;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    border: 2px solid rgb(64, 221, 241);
+    display: flex;
+  }
+ 
+  .conTact>form>textarea{
+    max-width: 20vw;
+    justify-content: center;
+    margin-left: 6vw;
+    min-height: 15vh;
+    min-width: 15vw;
+    border: 2px solid rgb(150, 248, 245);
+    border-radius: 5px;
+    background-color: rgb(10, 9, 9);
+    color: azure;
+    display: flex;
+  }
+   .conTact>form>button{
+    width: 5vw;
+    height: 5vh;
+    margin-left: 10vw;
+    background-color: rgb(105, 194, 173);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-style: oblique;
+    display: flex;
+   }
+   ::placeholder{
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 13px;
+    margin: 5px;
+   }
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 1024px) {
+    .menu {
+      left: 25vw;
+      top: -10vh;
+      flex-direction: row;
+    }
+  
+    .contact {
+      left:auto;
+      right: -20vw;
+      top: -10.5rem;
+    }
+  
+    .left img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      margin-top: 2rem;
+    }
+    .data1{
+      width: auto;
+      margin-left: auto;
+    }
+     .conTact{
+      margin-left: 28vw;
+
+    }
+    .conTact>form>h1{
+      margin-left: 5vw;
+    }
+    .heAder>nav>ul>li>a{
+      margin-top: 10rem;
+    }
+    .conTact{
+      width: 40vw;
+    }
+  .conTact>form>button{
+    width: 9vw;
+    padding: 4px;
+    margin-left: 14vw;
+  }
+   .conTact>form>textarea{
+      margin-left: 8vw;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    
+    .burger {
+      display: block;
+      position: relative;
+      left: 70vw;
+      top:-1.5vh;
+    }
+    .logo_club{
+      position: relative;
+      top: -10vh;
+      width: 30vw;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      margin: 1rem 0;
+      margin-top: -5rem;
+      gap: 1rem;
+      left: 0;
+      top: auto;
+      position: static;
+    }
+
+   .right > p {
+      margin-left: 5rem;
+      font-size: 0.9rem;
+    }
+    .right > h1{
+      margin-left: 17vw;
+    }
+    .menu.show {
+      display: flex;
+    }
+  
+    .contact {
+      position: static;
+      margin-left: -3rem;
+     
+    }
+  
+    .left img {
+      width: 80%;
+      margin: 2rem auto;
+    }
+    .info_equipe {
+      display: inline-block;
+      margin-left: 8rem;
+      
+    }
+    .data1{
+      width:auto;
+      margin-left: auto;
+    }
+    .heAder{
+      background: none;
+      margin-left: 3vw;
+      position:static;
+
+      
+    }
+      .heAder>nav>ul>li>a{
+      margin-top: 10rem;
+    }
+    .conTact{
+      margin-left: 20vw;
+      width: 50vw;
+    }
+    .conTact>form>button{
+      width: 12vw;
+      text-align: center;
+      padding: 4px;
+    }
+    .conTact>form>textarea{
+      margin-left: 10vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo_club img {
+      width: 30vw;
+      position: relative;
+      top: -10rem;
+    }
+  
+    .menu li,
+    .contact {
+      font-size: 0.9rem;
+    }
+  
+    .left img {
+      width: 90%;
+    }
+  
+    .right > h1 {
+      margin-left: 1rem;
+      font-size: 1.2rem;
+    }
+  
+    .right > p {
+      margin-left: 2rem;
+      font-size: 1rem;
+    }
+    .info_equipe {
+      display: inline-block;
+     
+     margin-left: 1rem;
+      margin-top: 1rem;
+  
+      
+    }
+    .activité1{
+      margin-left:0 ;
+    }
+    .heAder{
+      background: none;
+       
+    }
+  
+    .conTact{
+      margin-left: 18vw;
+      width: 100rem;
+    }
+  }     
