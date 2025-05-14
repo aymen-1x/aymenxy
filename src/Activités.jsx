@@ -1,5 +1,5 @@
 
-import react from "react";
+
 import do1_image_web from './image_Do1/do1_image_web.png'
 import do1_image_j_projet from './image_Do1/do1_image_j_projet.png'
 import do1_image_dev_mobile from './image_Do1/do1_image_dev_mobile.png'
